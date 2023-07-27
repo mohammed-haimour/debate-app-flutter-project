@@ -1,7 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:debate_app/core/constants/app_fonts.dart';
 import 'package:debate_app/core/constants/app_images.dart';
-import 'package:debate_app/core/utils/functions/navigators.dart';
 
 import 'package:debate_app/core/widgets/app_square_btn.dart';
 import 'package:flutter/material.dart';
@@ -50,7 +49,7 @@ class PickViewBody extends StatelessWidget {
               ],
             ),
             onPressed: () {
-              replaceTo(context, to);
+              // replaceTo(context, to);
             },
           ),
 
