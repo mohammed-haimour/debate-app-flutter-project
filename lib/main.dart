@@ -1,3 +1,5 @@
+import 'package:debate_app/core/utils/themes/dark_theme.dart';
+import 'package:debate_app/features/splash/presentation/views/splash_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +12,10 @@ class DebateApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar() ,
-      ),
+      debugShowCheckedModeBanner: false,
+      home: const SplashView(),
+      themeMode: ThemeMode.dark,
+      darkTheme: darkTheme(),
     );
   }
 }
