@@ -1,4 +1,4 @@
-import 'package:debate_app/features/registration/presentation/views/widgets/pick_view_body.dart';
+import 'package:debate_app/features/registration/presentation/views/widgets/pick_view_widgets/pick_view_pages/page_signin_or_signup.dart';
 import 'package:flutter/material.dart';
 
 class PickView extends StatelessWidget {
@@ -7,7 +7,7 @@ class PickView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: PickViewBody(),
+      body: SigninOrSignUpPage(),
     );
   }
 }
